@@ -8,7 +8,7 @@ ubuntu/trusty64 box
 Installs:
 # Using Ubuntu
 
-## iunstall Node
+
 curl -sL https://deb.nodesource.com/setup_0.10 | sudo -E bash -
 sudo apt-get install -y nodejs
 at this point you should also have NPM 
