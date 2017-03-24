@@ -1,4 +1,4 @@
-# Vagrant Appitur Developer Workstation.
+# Vagrant Node Developer Workstation.
 
 Simple vagrant script for creating a development environment for Appitur web and mobile applications.
 
@@ -7,9 +7,13 @@ ubuntu/trusty64 box
 
 Installs:
 
-* Node.js v0.10.41
-* Node.js v6.9.x (lts/boron)
-* Redis 3.2.x (stable)
+sudo npm install express@3.5.0
+
+
+line 46 of vagrant file indicating synched folder setup
+need to create on your local machine a folder myMEANApp
+to place and run files you create
+
 
 ## Create Vagrant machine
 ```Bash
@@ -18,7 +22,7 @@ vagrant ssh
 ```
 ## Web App Development
 ```Bash
-cd /vagrant/web
+cd /vagrant/myMEANApp
 npm run dev
 ```
 ## Destroy Server
